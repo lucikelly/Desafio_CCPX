@@ -1,0 +1,112 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+
+header{
+  background-color: #FFD900;
+  height: 80px;
+  
+}
+
+nav{
+  padding: 20px 0px 10px 40px;
+  
+}
+main{
+  display: grid;
+  grid-auto-flow: column; 
+
+}
+
+
+#descritivo{
+  background-color: #514988;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  width: 40vw;
+
+
+}
+  h1{
+    color: #FFD900;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  #descritivo p {
+    margin: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    
+  }
+#segunda-coluna {
+  text-align: start;
+  
+  padding: 30px 0px 0px 25px ;
+  color: #E33881;
+  font-weight: 700;
+}
+#count-down{
+  font-size: 50px;
+  font-weight: 700;
+  color: #514988;
+  display: grid;
+  grid-auto-flow: column; 
+  
+}
+#segunda-coluna h4{
+  margin-bottom: 20px;
+  
+}
+#cards{
+  display: grid;
+  grid-auto-flow: column; 
+  width: 60vw;
+  padding-left: 50px;
+  
+}
+#elementos{
+  display: grid;
+  grid-auto-flow: column; 
+  
+}
+footer{
+  margin-bottom: 50px;
+}
+footer p {
+  color: #FFD900;
+  margin: 30px 0px 30px 50px;
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+
+
+#button button{
+  margin-top: 30px;
+  background-color: #514988;
+  border: none;
+  width: 350px;
+  height: 80px;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#button button:hover{
+  color: #FFD900;
+}
+
+
